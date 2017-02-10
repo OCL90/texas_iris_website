@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="We pay cash for houses and buy them 'as-is' regardless of repairs needed. Call today and see how Texas IRIS can help you with selling your home.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="keywords" content="Texas, IRIS, cash, sell, buy, house, education, realestate, lubbock, richardson, repairs, par, form, today">
+  <meta name="author" content="Oscar Cortazar-Luebbert">
+  <title>Texas IRIS</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Lato|Bitter" rel="stylesheet" type="text/css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar navbar-custom navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">Texas IRIS</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/">SELL YOUR HOUSE</a></li>
+          <li><a href="properties.html">PROPERTIES</a></li>
+          <li><a href="investors.html">INVESTORS</a></li>
+          <li><a href="education.html">EDUCATION</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="yield-space">
+    <%= yield %>
+  </div>
+  <footer class="col-lg-12">
+    <div class="container">
+    <div class="row">
+      <div class="col-lg-12 footer-info">
+          <div class="col-lg-4">
+            <div class="col-lg-12">
+              <h4>LOCATIONS</h4>
+              <p><span class="glyphicon glyphicon-map-marker"></span> Lubbock, Texas 79424</p>
+              <p><span class="glyphicon glyphicon-map-marker"></span> Richardson, Texas 75081</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="col-lg-12">
+              <h1>Texas IRIS Logo</h1>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="col-lg-8 col-lg-offset-4">
+              <h4>GET IN TOUCH</h4>
+              <h5><b>Armando Magallanes</b></h5>
+              <p><a href="mailto:armando@texasiris.net"><span class="glyphicon glyphicon-envelope"></span> armando@texasiris.net</a></p>
+              <p><a href="tel:+18068537674"><span class="glyphicon glyphicon-earphone"></span> (806) 853-7674</a></p>
+            </div>
+          </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+</body>
+</html>
