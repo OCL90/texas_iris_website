@@ -10,7 +10,7 @@ class PagesController < ApplicationController
     client = Client.new(name: params[:name], email: params[:email], phone: params[:phone_number], home_address: params[:address_house_selling], comment: params[:comment])
     if client.save
       ClientMailer.new_client(client).deliver_now
-      flash[:success] = "Thanks for getting in touch with me. I will get back to you soon!"
+      flash[:success] = "Thanks for getting in touch with me. I will get in contact with you soon!"
       redirect_to :root
     else
       flash[:errors] = client.errors.full_messages
