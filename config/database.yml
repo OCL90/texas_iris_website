@@ -28,5 +28,5 @@ production:
   encoding: utf8
   database: texasIris_production
   pool: 5
-  username:
-  password:
+  username: <%= ENV['USERNAME'] %>
+  password: <%= ENV['PASSWORD'] %>
