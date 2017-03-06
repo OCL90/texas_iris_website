@@ -1,3 +1,4 @@
+
 source 'https://rubygems.org'
 
 
@@ -9,7 +10,7 @@ gem 'sass-rails', '>= 3.2'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.1.0'
+#gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -26,8 +27,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-# Use Unicorn as the app server
-# gem 'unicorn'
 gem 'hirb'
 gem 'figaro'
 # Use Capistrano for deployment
@@ -44,9 +43,10 @@ group :development do
   gem 'web-console', '~> 2.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
+  #gem 'spring'
 end
 
 group :production do
   gem 'pg'
+  gem 'unicorn'
 end
